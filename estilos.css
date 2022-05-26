@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #EFEFEF;
+}
+#main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+
+}
+#main_cad{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+
+}
+#tabela{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.opcoes{
+    width: 300px;
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 1px #EA3323;
+}
+.opcoes h2 a{
+    color: #EA3323;
+    font-size: 40px;
+    text-decoration: none;
+}
+.opcoes h2 a:hover{
+    color: #ea342391;
+}
+.opcoes p{
+    font-size: x-large;
+}
+
+#titulo h1{
+    color: #EA3323;
+    font-size: 80px;
+    
+}
+.material-symbols-outlined{
+    color: #EA3323;
+
+}
+#main_cad form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+#main_cad form label{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: large;
+}
+#main_cad form label input{
+    border-radius: 5px;
+}
+#btn{
+    border: none;
+    background-color: #EA3323;
+    color: #EFEFEF;
+    font-size: x-large;
+    box-shadow: 0.5px 0.5px 1px 1px black;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    background-color: #EA3323;
+}
+#nav2{
+    border-bottom: 1px solid black;
+}
+#nav a{
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: larger;
+    color: #EFEFEF;
+}
+#nav a:hover{
+    color: #efefef88;
+}
+nav h1{
+    color: white;
+    font-size: 50px;
+}
+footer{
+    padding: 10px;
+    background-color: #EA3323;
+    display: flex;
+    border-top: 1px black solid;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    color: #EFEFEF;
+    bottom:0;
+    left:0;
+    width: 100%;
+}
+table{
+    width: 70%;
+}
+tr:nth-child(even) {
+    background: #ea342391;
+}
+#thead tr{
+    background: #EA3323;
+    border: black 1px solid;
+    font-size: x-large;
+    color: #EFEFEF;
+}
+#thead tr td{
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+}
+#tbody tr td{
+    text-align: center;
+    height: 40px;
+    font-size: larger;
+}
+#e_e{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#e_e form{
+    padding-right: 10px;
+}
+#btn_exc{
+    background-color: #EA3323;
+    color: #EFEFEF;
+    border: 1px black solid;
+    width: 90px;
+    height: 30px;
+}
+#btn_edt{
+    background-color: #48752C;
+    color: white;
+    border: 1px black solid;
+    width: 90px;
+    height: 30px;
+}
